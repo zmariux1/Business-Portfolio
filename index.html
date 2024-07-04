@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Personal Portfolio Website Design</title>
+
+  <!-- font -->
+  <link href="html://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&dyspla=swap" rel="stylesheet">
+  <!-- box icons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- custom CSS  -->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/19568ad9a4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- header design  -->
+  <header class="header">
+    <a href="#" class="logo">Marius Ciobanu</a>
+
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+    <nav class="navbar ">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">I offer</a>
+      <a href="#portfolio">Portfolio</a>
+      
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- home section design  -->
+  <section class="home " id="home">
+    <div class="home_container">
+      <div class="home_msg_div">
+        <div class="home_msg_top">
+          <h3>Websites can</h3>
+          <h1>tell a story</h1>
+        </div>
+        <div class="home_msg_mid"><h1 class="extraH1">&</h1></div>
+        <div class="home_msg_bot"><h1>establish trust</h1></div>
+      </div>
+      <div class="home_selling_div">
+        <h5>Transform your drawings into your website</h5>
+        <div class="buttons_div">
+          <a href="#about"><button class="homeBtn seeMore"> See more <i class="customNext fa-solid fa-angles-right"></i></button></a>
+          <a href="#contact"><button class="homeBtn">Free - 15min consult <i class="customNext fa-solid fa-angles-right"></i></button></a>
+          <div class="socialMedia">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+        <div class="home_ratings_container">
+          <div class="aComment">
+            <div class="userIdentity">
+              <h4>Iulia Ardelean</h4>
+              <div class="rating">
+                <img src="/img/star.png" class="starImg">
+                <h4>5/5</h4>
+              </div>
+            </div>
+            <div class="userMessage_div">
+              <p class="comm_text">“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur  hendrerit ante id ornare aliquet. “</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="home_picture_div">
+      <div class="home_img"></div>
+    </div>
+  </section>
+
+
+  <!-- About section design  -->
+  <section class="about " id="about">
+    <div class="about_white">
+      <h2 class="heading">What is <span class="spanEmotion">your benefit</span>?</h2>
+      <h3>A good story can echo<br>
+        in people's <span class="spanEmotion">mind</span></h3>
+    </div>
+    <div class="about_gray">
+      <div class="about_gray_top">
+        <div class="pozitioning_imgText">
+          <img src="/img/L1_copy2.png" class="laptopImg" alt="">
+          <h3>and <span class="spanEmotion">emotions</span></h3>
+        </div>
+      </div>
+      <div class="about_gray_bot">
+        <!-- <h3>When they feel those <span class="spanEmotion">emotions</span> <br>
+        your story will spark back in a memory</h3> -->
+        <h1>Be the memory <br>
+        <span class="spanEmotion">of how they reinvented</span></h1>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Portfolio section design  -->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+    <div class="portfolio_container">
+      <div class="topRaw">
+        <div class="displayedDescription">
+          <div class="client portfolio_titles">Client</div>
+          <div class="story portfolio_titles">Story</div>
+          <div class="service portfolio_titles">Service</div>
+          <div class="location portfolio_titles">Location</div>
+        </div>
+      </div>
+      <details class="anItem project_trigger1" >
+        <summary class="displayedDescription">
+          <div class="client portfolio_categ">MoonCake</div>
+          <div class="story portfolio_categ">Romance</div>
+          <div class="service portfolio_categ">Development</div>
+          <div class="Location portfolio_categ">Ro</div>
+        </summary>
+        <div class="hiddenPresentation">
+          <div class="aHiddenProject_Inside">
+            <div class="portfolio_project_img project_img1"></div>
+            <div class="project_details_container">
+              <div class="project_description">
+                <h4>Invitatii online de nunti</h4>
+                <div class="what_was_done">
+                  <div class="project_task">
+                    <p>Story</p>
+                  </div>
+                  <div class="project_task">
+                    <p>Development</p>
+                  </div>
+                  <div class="project_task">
+                    <p>Deploy website live</p>
+                  </div>
+                </div>
+              </div>
+              <div class="feedback">
+                <h6>Feedback</h6>
+                <p class="portfolio_comm_text">“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur  hendrerit ante id ornare aliquet. “</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </details>
+      
+      <details class="anItem project_trigger2">
+        <summary class="displayedDescription">
+          <div class="client portfolio_categ">zCorgix</div>
+          <div class="story portfolio_categ">Excite</div>
+          <div class="service portfolio_categ">Design & Development</div>
+          <div class="Location portfolio_categ">Ro</div>
+        </summary>
+        <div class="hiddenPresentation">
+          <div class="aHiddenProject_Inside">
+            <div class="portfolio_project_img project_img2">            </div>
+            <div class="project_details_container">
+              <div class="project_description">
+                <h4>Find people to play board games</h4>
+                <div class="what_was_done">
+                  <div class="project_task">
+                    <p>Story</p>
+                  </div>
+                  <div class="project_task">
+                    <p>Design</p>
+                  </div>
+                  <div class="project_task">
+                    <p>Development</p>
+                  </div>
+                  <div class="project_task">
+                    <p>Deploy website live</p>
+                  </div>
+                </div>
+              </div>
+              <div class="feedback">
+                <h6>Feedback</h6>
+                <p class="portfolio_comm_text">“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur  hendrerit ante id ornare aliquet. “</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </details>
+      
+      <details class="anItem project_trigger3">
+        <summary class="displayedDescription">
+          <div class="client portfolio_categ">Alexandru</div>
+          <div class="story portfolio_categ">Power</div>
+          <div class="service portfolio_categ">Development</div>
+          <div class="Location portfolio_categ">Ro</div>
+        </summary>
+        <div class="hiddenPresentation">
+          <div class="aHiddenProject_Inside">
+            <div class="portfolio_project_img project_img3">            </div>
+            <div class="project_details_container">
+              <div class="project_description">
+                <h4>Invitatii online de nunti</h4>
+                <div class="what_was_done">
+                  <div class="project_task">
+                    <p>Story</p>
+                  </div>
+                  <div class="project_task">
+                    <p>Development</p>
+                  </div>
+                  <div class="project_task">
+                    <p>Deploy website live</p>
+                  </div>
+                </div>
+              </div>
+              <div class="feedback">
+                <h6>Feedback</h6>
+                <p class="portfolio_comm_text">“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur  hendrerit ante id ornare aliquet. “</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </details>
+      
+      <details class="anItem project_trigger4">
+        <summary class="displayedDescription">
+          <div class="client portfolio_categ">Andrei</div>
+          <div class="story portfolio_categ">Breath</div>
+          <div class="service portfolio_categ">Development</div>
+          <div class="Location portfolio_categ">Ro</div>
+        </summary>
+        <div class="hiddenPresentation">
+          <div class="aHiddenProject_Inside">
+            <div class="portfolio_project_img project_img4"></div>
+            <div class="project_details_container">
+              <div class="project_description">
+                <h4>Invitatii online de nunti</h4>
+                <div class="what_was_done">
+                  <div class="project_task">
+                    <p>Story</p>
+                  </div>
+                  <div class="project_task">
+                    <p>Development</p>
+                  </div>
+                  <div class="project_task">
+                    <p>Deploy website live</p>
+                  </div>
+                </div>
+              </div>
+              <div class="feedback">
+                <h6>Feedback</h6>
+                <p class="portfolio_comm_text">“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur  hendrerit ante id ornare aliquet. “</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </details>
+      
+
+    </div>
+    <div class="sidePortfolioDisplay">
+      <div class="aHiddenProject_Inside side_project1 transition_effect_hide">
+        <div class="portfolio_project_img project_img1"></div>
+        <div class="project_details_container">
+          <div class="project_description">
+            <h4>Invitatii online de nunti</h4>
+            <div class="what_was_done">
+              <div class="project_task">
+                <p>Story</p>
+              </div>
+              <div class="project_task">
+                <p>Development</p>
+              </div>
+              <div class="project_task">
+                <p>Deploy website live</p>
+              </div>
+            </div>
+          </div>
+          <div class="feedback">
+            <h6>Feedback</h6>
+            <p class="portfolio_comm_text">“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur  hendrerit ante id ornare aliquet. “</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="aHiddenProject_Inside side_project2 transition_effect_hide">
+        <div class="portfolio_project_img project_img2">            </div>
+        <div class="project_details_container">
+          <div class="project_description">
+            <h4>Find people to play board games</h4>
+            <div class="what_was_done">
+              <div class="project_task">
+                <p>Story</p>
+              </div>
+              <div class="project_task">
+                <p>Design</p>
+              </div>
+              <div class="project_task">
+                <p>Development</p>
+              </div>
+              <div class="project_task">
+                <p>Deploy website live</p>
+              </div>
+            </div>
+          </div>
+          <div class="feedback">
+            <h6>Feedback</h6>
+            <p class="portfolio_comm_text">“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur  hendrerit ante id ornare aliquet. “</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="aHiddenProject_Inside side_project3 transition_effect_hide">
+        <div class="portfolio_project_img project_img3">            </div>
+        <div class="project_details_container">
+          <div class="project_description">
+            <h4>Invitatii online de nunti</h4>
+            <div class="what_was_done">
+              <div class="project_task">
+                <p>Story</p>
+              </div>
+              <div class="project_task">
+                <p>Development</p>
+              </div>
+              <div class="project_task">
+                <p>Deploy website live</p>
+              </div>
+            </div>
+          </div>
+          <div class="feedback">
+            <h6>Feedback</h6>
+            <p class="portfolio_comm_text">“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur  hendrerit ante id ornare aliquet. “</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="aHiddenProject_Inside side_project4 transition_effect_hide">
+        <div class="portfolio_project_img project_img4">            </div>
+        <div class="project_details_container">
+          <div class="project_description">
+            <h4>Invitatii online de nunti</h4>
+            <div class="what_was_done">
+              <div class="project_task">
+                <p>Story</p>
+              </div>
+              <div class="project_task">
+                <p>Development</p>
+              </div>
+              <div class="project_task">
+                <p>Deploy website live</p>
+              </div>
+            </div>
+          </div>
+          <div class="feedback">
+            <h6>Feedback</h6>
+            <p class="portfolio_comm_text">“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur  hendrerit ante id ornare aliquet. “</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- contact section design  -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+    <div class="contact_leftSide">
+      <form action="" class="theForm">
+        <div class="contact_names">
+          <div class="contact_first_name_div name_input_div">
+            <label for="first_name_input " class="contact_label">First Name</label>
+            <input type="text" id="first_name_input" class="contact_names_input">
+          </div>
+          <div class="contact_last_name_div name_input_div">
+            <label for="last_name_input" class="contact_label">Last Name</label>
+            <input type="text" id="last_name_input" class="contact_names_input">
+          </div>
+        </div>
+        <div class="contact_email_div">
+          <label for="email_input" class="contact_label">Email</label>
+          <input type="text" id="email_input" class="contact_input">
+        </div>
+        <div class="contact_phone_div">
+          <label for="phone_input" class="contact_label">Phone</label>
+          <input type="text" id="phone_input" class="contact_input">
+        </div>
+        <div class="contact_message_div">
+          <label for="message_input" class="contact_label">Message</label>
+          <input type="text" id="message_input" class="contact_input">
+        </div>
+
+        <button type="submit" class="submitBtn">SEND</button>
+      </form>
+      
+    </div>
+    <div class="contact_midSide">
+      <div class="contact_desinqDeformed_details">
+        <div class="contact_desinqDeformed_details_top">
+          <h5>What is your confort zone to chat?</h5>
+          <h6>Reach me out by:</h6>
+        </div>
+        <div class="contact_desinqDeformed_details_mid">
+          <div class="contact_details"><h6><i class="fa-solid fa-square-phone-flip"></i> Phone: <a href="tel:+40788739367">+40 (788) 739-367</a></h6></div>
+          <div class="contact_details"><h6><i class="fa-brands fa-square-whatsapp"></i> Text: <a href="whatsapp://send?phone=+40788739367" target="_blank">Click to text me (Wapp)</a></h6></div>
+          <div class="contact_details"><h6><i class="fa-solid fa-envelope-circle-check"></i> Email: <a href="mailto:z.marius.ciobanu@gmail.com">z.marius.ciobanu@gmail.com</a></h6></div>
+        </div>
+        <div class="contact_desinqDeformed_details_bot">
+          <div class="contact_logos">
+            <div>
+             <h6> Check out the social media</h6>
+            </div>
+            <div class="click_logos">
+              <a href="https://www.facebook.com/zmariux/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-facebook"></i></a>
+              <a href="https://www.linkedin.com/in/zmariux/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="whatsapp://send?phone=+40788739367"><i class="fa-brands fa-square-whatsapp"></i></a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact_rightSide"></div>
+  </section>
+
+
+
+
+  <!-- footer design  -->
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Designed & Developed by Marius Ciobanu; <br> Published in 2023</p>
+    </div>
+    <div class="footer-iconTop">
+      <a href="#home">First page<i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </footer>
+
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- jquary  -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- custom script  -->
+  <script src="/js/script.js"></script>
+</body>
+
+</html>
