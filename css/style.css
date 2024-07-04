@@ -119,7 +119,7 @@ section {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-image: url('img/window.jpg');
+  background-image: url('../img/window.jpg');
   background-size: cover;
   /* background-position: top center; */
   background-position: top center;
@@ -135,7 +135,7 @@ section {
 .home_img {
   width: 90%;
   height: 90vh;
-  background-image: url('img/window.jpg');
+  background-image: url('../img/window.jpg');
   background-size: cover;
   /* background-position: top center; */
   background-position: top center;
@@ -466,16 +466,16 @@ section {
 }
 
 .project_img1 {
-  background-image: url('img/portfolio_mooncake.png');
+  background-image: url('../img/portfolio_mooncake.png');
 }
 .project_img2 {
-  background-image: url('img/portfolio_zcorgix.png');
+  background-image: url('../img/portfolio_zcorgix.png');
 }
 .project_img3 {
-  background-image: url('img/portfolio_mooncake.png');
+  background-image: url('../img/portfolio_mooncake.png');
 }
 .project_img4 {
-  background-image: url('img/portfolio_mooncake.png');
+  background-image: url('../img/portfolio_mooncake.png');
 }
 .portfolio_project_img {
 
@@ -1397,7 +1397,7 @@ section {
     font-size: 0.9rem;
   }
   .home_img {
-    background-image: url('img/window.jpg');
+    background-image: url('../img/window.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
